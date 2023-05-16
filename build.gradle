@@ -16,6 +16,12 @@ repositories {
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.boot:spring-boot-starter-test')
+
+    // lombok
+    implementation('org.projectlombok:lombok')
+
+    //junit
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 }
 
 test {
