@@ -25,6 +25,9 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation('com.h2database:h2')
 
+    //JDBC
+    implementation('org.springframework.session:spring-session-jdbc')
+
     // lombok
     implementation('org.projectlombok:lombok')
 
